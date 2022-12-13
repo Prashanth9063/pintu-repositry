@@ -1,0 +1,1 @@
+SELECT guestid,guestname as "GUEST_NAME" FROM guest WHERE membershiptype = 'Privileged' and substr(guestid,4) >1
